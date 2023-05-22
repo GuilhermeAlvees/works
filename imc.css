@@ -1,0 +1,65 @@
+body {
+    background-color: #009186;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 20px;
+    position: sticky;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container > #titulo {
+    margin-bottom: 20px;
+    color: #00746b;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .tab1, .tab2 {
+    flex-basis: calc(50% - 10px); /* 50% da largura - margem entre as tabs */
+    margin-right: 10px; /* margem entre as tabs */
+  }
+  
+  .tab2 {
+    margin-right: 0; /* remover margem direita da última tab2 */
+  }
+
+.container > #calculo {
+    border: solid 2px black;
+    margin-top: 15px;
+  }
+
+#peso, #altura, #nome{
+    width: 600px;
+    height: 25px;
+    border-color: #009186;
+    border-radius: 5px;
+}
+
+#calcular{
+    width: 600px;
+    height: 40px;
+    background-color: #00746b;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#resultado{
+  width: 580px;
+  height: 40px;
+  background-color: #0ac5b6;
+  color: #030303;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-family: Helvetica;
+  font-size: 15px;
+}
